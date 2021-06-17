@@ -8,16 +8,20 @@ const Navbar = () => {
     <header className="main-header">
       <nav>
         <ul className="nav-links">
-          <li>
+          {/* <li>
             <NavLink to="/" exact>
               Home
             </NavLink>
+          </li> */}
+          <li>
+            <NavLink to="/reco" exact>
+              Reco
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/reco">Reco</NavLink>
-          </li>
-          <li>
-            <NavLink to="/postReco">PostReco</NavLink>
+            <NavLink to="/postReco" exact>
+              PostReco
+            </NavLink>
           </li>
         </ul>
       </nav>
