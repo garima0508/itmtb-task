@@ -18,9 +18,6 @@ const App = () => {
         <Navbar />
         <main>
           <Switch>
-            <Route path="/" exact>
-              <div>Home Page</div>
-            </Route>
             <Route
               exact
               path="/postReco"
