@@ -1,0 +1,15 @@
+#linkk {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+}
+#addlink {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1.5rem;
+  background-color: #14ac74;
+  height: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

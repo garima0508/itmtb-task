@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: small;
+}
+#buy,
+#sell,
+#moving,
+#closing {
+  color: #14ac74;
+  border: none;
+  outline: none;
+}
+#buy:hover,
+#sell:hover,
+#moving:hover,
+#closing:hover {
+  background-color: #14ac74;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+#submit {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  color: rgb(148, 141, 141);
+  border-color: rgb(230, 243, 235);
+}
+#date {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 8px 200px 8px 10px;
+  transition: all 200ms ease;
+  width: 100%;
+  height: calc(1.5em + 1rem + 2px);
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  color: #495057;
+}
+.disabled-link {
+  pointer-events: none;
+  color: rgb(148, 141, 141);
+}
+.active {
+  pointer-events: auto;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.active:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
